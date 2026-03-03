@@ -1,0 +1,11 @@
+.venv
+Dockerfile
+.dockerignore
+__pycache__
+.env
+
+
+# Sphinx build folders
+docs/build/
+docs/public/
+docs/_build/

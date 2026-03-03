@@ -1,0 +1,18 @@
+[project]
+name = "art-tuto"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "adversarial-robustness-toolbox>=1.20.1",
+    "mlflow>=3.10.0",
+    "myst-parser>=5.0.0",
+    "scikit-learn>=1.8.0",
+    "tensorflow>=2.20.0",
+]
+
+[dependency-groups]
+dev = [
+    "sphinx-rtd-theme>=3.0.0rc1",
+]
