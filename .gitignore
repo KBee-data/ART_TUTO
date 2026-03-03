@@ -4,8 +4,13 @@ Dockerfile
 __pycache__
 .env
 
-mon_app/data
-
+# Ignore training data
+mon_app/data/
+data/
+datasets/
+*.jpg
+*.png
+*.tif
 
 # Sphinx build folders
 docs/build/
