@@ -4,6 +4,8 @@ Dockerfile
 __pycache__
 .env
 
+mon_app/data
+
 
 # Sphinx build folders
 docs/build/
